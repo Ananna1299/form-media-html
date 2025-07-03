@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="form">
+    <meta name="keywords" content="html,form">
+    <meta name="author" content="Ananna Paul">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/home.png.png" type="image/x-icon">
+    <title>Tour Registration form</title>
+</head>
+
+
+<body style="background-color: blanchedalmond;">
+    <h2 style="border:0cqw;color: brown; text-align: center;">
+        <i>::::TOUR REGISTRATION FORM:::::</i></h2>
+
+    <form>
+    <fieldset style="background-color: beige; width: 600px;text-align: center;margin: auto;" >
+
+     <legend style="text-align: center;"> Please fill the form</legend>
+      <br>
+
+
+     <div class="input" id="name" style="text-align: center;">
+        <label>Enter Name</label><br>
+        <input 
+        placeholder="Enter your official name"   
+        type="text" 
+        minlength="5"
+        maxlength="10"
+        size="50">
+        
+    </div>
+    <br>
+
+    <div class="email" id="email1">
+        <lebel style="text-align: center;"> Enter Email </lebel><br>
+        <input 
+        type="email" 
+        name="email" 
+        id="email" 
+        placeholder="Enter your official mail"
+        size="50" 
+        required>
+    </div>
+    <br>
+
+    <div class="input" id="c-name" style="text-align: center;">
+        <label>Enter Company Name</label><br>
+        <input
+        class="input" 
+        id="company-name"
+        placeholder="Enter your Company name"   
+        type="text" 
+        size="50"
+        value="Pogramming Hero"
+        readonly>
+        
+    </div>
+    <br>
+    <div class="input" id="f-color" style="text-align: center;">
+        <label>Enter Favourote color Name</label><br>
+        <br>
+        <input
+        class="input" 
+        id="color-name"
+        placeholder="Enter your Favourote color Name"   
+        type="color" 
+        size="50">
+        
+    </div>
+
+    <br>
+
+    <div class="input" id="b-date" style="text-align: center;">
+        <label>Enter your BirthDate</label><br>
+        <br>
+        <input
+        class="input" 
+        id="birth_date"   
+        type="date" 
+        required>
+        
+    </div>
+
+    <br>
+
+    <div class="input" id="j-date" style="text-align: center;">
+        <label>Enter your joinning date</label><br>
+        <br>
+        <input
+        class="input" 
+        id="joinning_date"   
+        type="datetime-local" 
+        required>
+        
+    </div>
+
+    <br>
+
+    <div class="input" id="file" style="text-align: center;">
+        <label>Upload file</label>
+        <input
+        class="input" 
+        id="file-upload"   
+        type="file" 
+        required
+        multiple>
+        
+    </div>
+
+    <br>
+
+    <div class="input" id="pass" style="text-align: center;">
+        <label>Enter Password</label><br>
+        <input
+        class="input" 
+        id="password"   
+        type="password" 
+        required>
+        
+    </div>
+
+    <br>
+
+    <div style="text-align: center;">
+        <lebel> Enter your Gender</lebel>
+        <input type="radio" name="gender" id="M-gender" value="Male"> Male
+        <input type="radio" name="gender" id="F-gender" value="Female"> Female
+
+
+    </div>
+    <br>
+
+    <div class="input" id="age" style="text-align: center;">
+        <label>Enter age</label><br>
+        <input
+        class="input-age" 
+        id="age_g"   
+        type="number" 
+        min="18"
+        max="40"
+        required>
+        
+    </div>
+
+    <br>
+
+    <!--Dropdown-->
+        <div  style="text-align: center;">
+        <label>Enter difficulty level</label><br>
+        <select name="" id="">
+            <option value=""> Easy</option>
+            <option value=""> Medium</option>
+            <option value="" selected> Hard</option>
+        </select>
+        
+    </div>
+
+    <br>
+
+    <div>
+        <input 
+        type="submit" 
+        value="Register" style="background-color: darkgoldenrod;"/>
+    </div>
+
+
+
+
+
+
+    </fieldset>
+    </form>
+
+    
+
+</body>
+
+
+</html>
